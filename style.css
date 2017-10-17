@@ -1,0 +1,82 @@
+
+html, body {
+  font-family: sans-serif;
+}
+
+html, body, .wrapper, .de-ceedee-h3, .de-ceedee-h4, .de-ceedee-p{
+  margin: 0;
+  padding: 0;
+}
+
+.h1
+{
+  text-align: center;
+}
+
+.wrapper
+{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.de-ceedee
+{
+  width: 500px;
+  float: left;
+  height: 500px;
+  margin: 1em;
+  overflow: hidden;
+  position: relative;
+}
+
+.de-ceedee-img
+{
+  height: 500px;
+  width: 500px;
+}
+
+.de-ceedee-article
+{
+  font-size: 1.1em;
+  position: relative;
+  margin-top: 0;
+  transition: margin-top .60s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1em;
+  height: 500px;
+  -webkit-transition: all 1000ms cubic-bezier(0.375, 1, 0.590, 0.260); /* older webkit */
+  -webkit-transition: all 1000ms cubic-bezier(0.375, 1.650, 0.590, 0.260);
+     -moz-transition: all 1000ms cubic-bezier(0.375, 1.650, 0.590, 0.260);
+       -o-transition: all 1000ms cubic-bezier(0.375, 1.650, 0.590, 0.260);
+          transition: all 1000ms cubic-bezier(0.375, 1.650, 0.590, 0.260); /* custom */
+
+  -webkit-transition-timing-function: cubic-bezier(0.375, 1, 0.590, 0.260); /* older webkit */
+  -webkit-transition-timing-function: cubic-bezier(0.375, 1.650, 0.590, 0.260);
+     -moz-transition-timing-function: cubic-bezier(0.375, 1.650, 0.590, 0.260);
+       -o-transition-timing-function: cubic-bezier(0.375, 1.650, 0.590, 0.260);
+          transition-timing-function: cubic-bezier(0.375, 1.650, 0.590, 0.260); /* custom */
+        }
+
+.de-ceedee:hover .de-ceedee-article
+{
+  margin-top: -506px;
+  cursor: pointer;
+
+}
+
+.de-ceedee-h3, .de-ceedee-h4, .de-ceedee-h5, .de-ceedee-p
+{
+  padding: .5rem;
+}
+
+.footer{
+
+}
+
+.footer-validatie-a-img
+{
+  height: 50px;
+  width: 100px;
+
+
+}
