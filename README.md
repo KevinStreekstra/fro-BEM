@@ -7,3 +7,4 @@ LINK STYLE:
 https://github.com/KevinStreekstra/fro-BEM/blob/master/style.css
 
 LINK HTML:
+https://github.com/KevinStreekstra/fro-BEM/blob/master/index.html
